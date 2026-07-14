@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-14T10:50:19 EDT" name="Default suite" finished-at="2026-07-14T10:50:44 EDT" duration-ms="25901">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@2ca923bb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-07-14T10:50:19 EDT" name="Default test" finished-at="2026-07-14T10:50:44 EDT" duration-ms="25901">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@2ca923bb]" started-at="2026-07-14T10:50:19 EDT" name="setUpClass" finished-at="2026-07-14T10:50:19 EDT" duration-ms="489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@58f97013]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@2ca923bb]" started-at="2026-07-14T10:50:19 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-14T10:50:37 EDT" duration-ms="17583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search and verify job details on Labcorp Careers"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Labcorp Automation Suite"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@2ca923bb]" started-at="2026-07-14T10:50:37 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-14T10:50:42 EDT" duration-ms="5537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate GET Request from Beeceptor Endpoint"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Labcorp Automation Suite"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@2ca923bb]" started-at="2026-07-14T10:50:42 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-14T10:50:44 EDT" duration-ms="2170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate POST Request with Order Details payload"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Labcorp Automation Suite"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@2ca923bb]" started-at="2026-07-14T10:50:44 EDT" name="tearDownClass" finished-at="2026-07-14T10:50:44 EDT" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
